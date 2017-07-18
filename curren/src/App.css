@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  
+  height: 80px;
+}
+
+.App-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), rgba(0,0,0,0.55) url('https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwj1qa6hjZPVAhVBw2MKHWKwCO0QjRwIBw&url=https%3A%2F%2Fwww.pexels.com%2Fphoto%2Flaptop-notebook-working-macbook-7109%2F&psig=AFQjCNFUoKoXkuK7cJp1Qc4GhxaJwUSUbg&ust=1500476633778049') no-repeat center;
+    background-size: cover;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
