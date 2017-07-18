@@ -7,7 +7,8 @@ const options = ['BTC', 'ETH', 'EUR', 'USD', 'ZEC'];
 
 const Header = (
   <div className="App-header">
-    <h1>Currency Converter</h1>
+    <h1>Currency</h1>
+    <h1>Converter</h1>
   </div>
 );
 
@@ -74,9 +75,11 @@ class App extends Component {
             currency={this.state.currencyTwo}  
             handleChange={this.handleChange}/>
           </div>
-          <h3>AMOUNT</h3>
-          <input type="text" name='amount' className='fieldBox'
-          onChange={(e) => this.handleChange(e,e.target.name)} />
+          <div className='fieldContainer'>
+            <h3>AMOUNT</h3>
+            <input type="text" name='amount' className='fieldBox'
+            onChange={(e) => this.handleChange(e,e.target.name)} />
+          </div>
           <input style={{backgroundColor: newColor}}className='convertButton' type="submit" value="CONVERT" />
         </form>
         {slots}

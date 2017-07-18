@@ -2,6 +2,9 @@
     margin-left: 2vh;
 }
 
+.DropBox h3 {
+  text-align: left;
+}
 .Dropdown-root {
   position: relative;
 }
