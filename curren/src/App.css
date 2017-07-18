@@ -8,12 +8,17 @@
   height: 150px;
   padding: 20px;
   color: white;
+  text-align: left;
 }
 
 h3 {
   color: rgb(170,170,170);
-  font-weight: none;
-  text-align: center;
+}
+
+.fieldContainer {
+  width: 40vw;
+  text-align: left;
+  margin: 0 auto;
 }
 
 .DropContainer {
@@ -29,7 +34,7 @@ h3 {
    box-shadow: 0 3px 23px -5px rgb(170,170,170);
    border: none;
    border-radius: 5px;
-   width: 31vw;
+   width: 100%;
    display: block;
    text-align: center;
    margin: 2vh auto;
