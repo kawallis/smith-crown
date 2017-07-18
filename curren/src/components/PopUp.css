@@ -1,0 +1,10 @@
+.PopUp {
+    height: 8vh;
+    width: 50vw;
+    background-color: rgb(217, 217,217);
+    color: rgb(92, 92,92);
+    margin: 2px auto;
+    padding: 1px;
+    text-align: center;
+    border-radius: 5px;
+}
